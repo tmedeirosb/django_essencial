@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="pt">
     <head>
         <meta charset="utf-8">
         <title>Django Essencial - {% block title %} Titulo {% endblock %}</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" />
     </head>
     <body>
     {% block content %}{% endblock %}

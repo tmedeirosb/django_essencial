@@ -19,4 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^cap1/', include('cap1.urls')),
+    url(r'^cap3/', include('cap3.urls')),
 ]
+
