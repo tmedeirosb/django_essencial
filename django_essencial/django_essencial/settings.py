@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.webdesign',
     'cap1',
-    'cap3'
+    'cap3',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -121,3 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# alteracao pelo cap 3
+SITE_PAGES_DIRECTORY = os.path.join(BASE_DIR, 'cap3', 'pages')
+
