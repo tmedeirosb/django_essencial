@@ -1,3 +1,7 @@
 *{
-    color: red;
+    color: green;
+}
+body{
+    padding: 50px 0 30px;
+    color: green;
 }

@@ -126,3 +126,4 @@ STATIC_URL = '/static/'
 # alteracao pelo cap 3
 SITE_PAGES_DIRECTORY = os.path.join(BASE_DIR, 'cap3', 'pages')
 
+
